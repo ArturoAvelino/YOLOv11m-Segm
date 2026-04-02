@@ -226,12 +226,6 @@ Inference outputs:
   - `image`: source image file name.
   - `detections`: list of objects containing `class_id`, `class_name`, `confidence`, and `polygon` (list of `[x, y]` points).
 
-## macOS Catalina Notes
-CPU training will be slow. For faster results:
-- Lower `imgsz` (e.g. 640 or 512)
-- Reduce `batch` if memory is tight
-- Consider running on Colab or a GPU cluster
-
 ## Colab / GPU Notes
 Set:
 - `device`: `"0"` (or `"0,1"` for multi-GPU)
