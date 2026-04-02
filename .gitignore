@@ -1,0 +1,4 @@
+.venv/
+.idea/
+__pycache__/
+yolo11m-seg.pt

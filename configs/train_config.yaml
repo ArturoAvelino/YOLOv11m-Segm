@@ -1,0 +1,56 @@
+# Directory containing training images
+train_images_dir: /absolute/path/to/train/images
+
+# Directory containing training labels in JSON format
+train_labels_dir: /absolute/path/to/train/labels_json
+
+# Directory containing validation images
+val_images_dir: /absolute/path/to/val/images
+
+# Directory containing validation labels in JSON format
+val_labels_dir: /absolute/path/to/val/labels_json
+
+# Directory containing test images
+test_images_dir: /absolute/path/to/test/images
+
+# Directory containing test labels in JSON format
+test_labels_dir: /absolute/path/to/test/labels_json
+
+# Root directory for the YOLO dataset (where generated splits/configs live)
+dataset_root: ./yolo_dataset
+
+# Base model weights to start from
+model: yolo11m-seg.pt
+
+# Number of training epochs
+epochs: 100
+
+# Image size used for training (pixels)
+imgsz: 1024
+
+# Batch size for training
+batch: 4
+
+# Number of data loader workers
+workers: 2
+
+# Device to run training on (e.g., cpu, cuda:0)
+device: cpu
+
+# Whether to cache images/labels in memory
+cache: false
+
+# Whether to use pretrained weights
+pretrained: true
+
+# Project root for training runs and artifacts (saved under <project_dir>/runs)
+project_dir: .
+
+# Name for this training run
+run_name: insect_seg_train
+
+# List of category names to include; null means include all
+include_categories: null
+
+# Whether to save console output to a file
+save_console: true

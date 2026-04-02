@@ -1,0 +1,21 @@
+{
+  "train_images_dir": "/absolute/path/to/train/images",
+  "train_labels_dir": "/absolute/path/to/train/labels_json",
+  "val_images_dir": "/absolute/path/to/val/images",
+  "val_labels_dir": "/absolute/path/to/val/labels_json",
+  "test_images_dir": "/absolute/path/to/test/images",
+  "test_labels_dir": "/absolute/path/to/test/labels_json",
+  "dataset_root": "./yolo_dataset",
+  "model": "yolo11m-seg.pt",
+  "epochs": 100,
+  "imgsz": 1024,
+  "batch": 4,
+  "workers": 2,
+  "device": "cpu",
+  "cache": false,
+  "pretrained": true,
+  "project_dir": ".",
+  "run_name": "insect_seg_train",
+  "include_categories": null,
+  "save_console": true
+}

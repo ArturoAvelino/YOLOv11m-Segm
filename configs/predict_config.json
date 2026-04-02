@@ -1,0 +1,18 @@
+{
+  "source_dir": "/absolute/path/to/images",
+  "output_dir": "/absolute/path/to/output_json",
+  "weights": "/absolute/path/to/best.pt",
+  "imgsz": 1024,
+  "conf": 0.25,
+  "device": "cpu",
+  "generate_contours": true,
+  "contours_out_dir": "/absolute/path/to/output_contours",
+  "contour_color": "red",
+  "contour_width": 8,
+  "contours_ext": ".jpg",
+  "contours_confidence": true,
+  "contours_class_name": true,
+  "contours_fontsize": 70,
+  "debug_shapes": true,
+  "save_console": true
+}

@@ -1,0 +1,47 @@
+# Directory containing input images to run inference on
+source_dir: /absolute/path/to/images
+
+# Directory to write prediction outputs in JSON format
+output_dir: /absolute/path/to/output_json
+
+# Path to model weights for inference
+weights: /absolute/path/to/best.pt
+
+# Image size used for inference (pixels)
+imgsz: 1024
+
+# Confidence threshold for predictions
+conf: 0.25
+
+# Device to run inference on (e.g., cpu, cuda:0)
+device: cpu
+
+# Whether to generate contour overlay images
+generate_contours: true
+
+# Directory to write contour overlay images
+contours_out_dir: /absolute/path/to/output_contours
+
+# Color used for contour lines (name or hex)
+contour_color: red
+
+# Line width for contours (pixels)
+contour_width: 8
+
+# File extension for contour output images
+contours_ext: .jpg
+
+# Whether to draw confidence values on contours
+contours_confidence: true
+
+# Whether to draw class names on contours
+contours_class_name: true
+
+# Font size for contour labels
+contours_fontsize: 70
+
+# Whether to enable extra shape-debug output
+debug_shapes: true
+
+# Whether to save console output to a file
+save_console: true
