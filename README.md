@@ -19,7 +19,13 @@ This project prepares a YOLOv11 segmentation dataset from per-image COCO JSON fi
 - Ultralytics (YOLOv11)
 - `numpy`, `pandas`, `matplotlib`, `PyYAML`
 
-Install:
+Install them with (recommended):
+
+```bash
+pip install -r requirements.txt
+```
+
+or:
 ```bash
 pip install ultralytics pandas matplotlib pillow pyyaml
 ```
