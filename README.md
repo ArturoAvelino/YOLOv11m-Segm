@@ -25,7 +25,7 @@ Install them with (recommended):
 pip install -r requirements.txt
 ```
 
-or:
+Or:
 ```bash
 pip install ultralytics pandas matplotlib pillow pyyaml
 ```
